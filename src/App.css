@@ -103,7 +103,7 @@ body {
 }
 
 .Header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -276,6 +276,11 @@ body {
   border-left: 1px solid var(--gc);
   border-top: 1px solid var(--gc);
   transform: rotate(45deg);
+}
+
+.main_slider {
+  transform: translateY(-255px);
+  height: 645px;
 }
 
 .main_slider figure {

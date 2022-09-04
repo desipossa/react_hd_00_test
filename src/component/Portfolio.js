@@ -6,7 +6,7 @@ const Portfolio = () => {
             <div className="inner">
                 <figure>
                     <div className="thumb">
-                        <img src="./assets/section1_1.jpg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/section1_1.jpg"} alt="" />
                     </div>
                     <div className="des">
                         엘리베이터
@@ -19,7 +19,7 @@ const Portfolio = () => {
                 </figure>
                 <figure>
                     <div className="thumb">
-                        <img src="./assets/section1_2.jpg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/section1_2.jpg"} alt="" />
                     </div>
                     <div className="des">
                         엘리베이터
@@ -31,17 +31,17 @@ const Portfolio = () => {
                     <a href="#!" className="btn_s01">자세히보기 <i className="xi-arrow-right"></i></a>
                 </figure>
                 <figure>
-                    <div class="thumb">
-                        <img src="./assets/section1_3.jpg" alt="" />
+                    <div className="thumb">
+                        <img src={process.env.PUBLIC_URL + "/assets/section1_3.jpg"} alt="" />
                     </div>
-                    <div class="des">
+                    <div className="des">
                         엘리베이터
                     </div>
                     <p>
                         단순한 수직운송수단을 넘어 빌딩의 가치를<br />
                         높여 드립니다.
                     </p>
-                    <a href="#!" class="btn_s01">자세히보기 <i class="xi-arrow-right"></i></a>
+                    <a href="#!" className="btn_s01">자세히보기 <i className="xi-arrow-right"></i></a>
                 </figure>
             </div>
         </section >
